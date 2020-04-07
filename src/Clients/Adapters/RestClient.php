@@ -4,7 +4,7 @@ namespace Ozq\MoodleClient\Clients\Adapters;
 
 use Ozq\MoodleClient\Clients\BaseAdapter;
 use Ozq\MoodleClient\Connection;
-use Assert\Assertion;
+// use Assert\Assertion;
 use GuzzleHttp\Client as HttpClient;
 
 /**
@@ -74,7 +74,7 @@ class RestClient extends BaseAdapter
      */
     protected function setResponseFormat($format)
     {
-        Assertion::inArray($format, [self::RESPONSE_FORMAT_JSON, self::RESPONSE_FORMAT_XML]);
+        //Assertion::inArray($format, [self::RESPONSE_FORMAT_JSON, self::RESPONSE_FORMAT_XML]);
         $this->responseFormat = $format;
     }
 }
