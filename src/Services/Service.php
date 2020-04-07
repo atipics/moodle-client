@@ -15,7 +15,7 @@ abstract class Service
     /**
      * @var ClientAdapterInterface
      */
-    private $client;
+    protected $client;
 
     /**
      * Service constructor.

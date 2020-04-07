@@ -19,9 +19,13 @@ class Course extends Service
      */
     public function getAll(array $ids = [])
     {
-        $response = $this->sendRequest('core_course_get_courses', ['options' => ['ids' => $ids]]);
+        $categories = $this->sendRequest('core_course_get_categories', ['options' => ['ids' => $ids]]);
+        for ($i = 0; $i < count($categories); ++$i) {
+          $courses = $this->getByField('category', $categories[$i]['id']);
+          $categories[$i]['courses'] = $courses;
 
-        return $this->getCourseCollection($response);
+        }
+        return $categories;
     }
 
     /**
@@ -38,7 +42,6 @@ class Course extends Service
         ];
 
         $response = $this->sendRequest('core_course_get_courses_by_field', $arguments);
-
         return $this->getCourseCollection($response['courses']);
     }
 
