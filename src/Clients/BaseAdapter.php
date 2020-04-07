@@ -1,14 +1,14 @@
 <?php
 
-namespace atipics\MoodleClient\Clients;
+namespace Atipics\MoodleClient\Clients;
 
-use atipics\MoodleClient\Connection;
-use atipics\MoodleClient\Exceptions\ApiException;
+use Atipics\MoodleClient\Connection;
+use Atipics\MoodleClient\Exceptions\ApiException;
 use ReflectionClass;
 
 /**
  * Class BaseAdapter
- * @package atipics\MoodleClient\Clients
+ * @package Atipics\MoodleClient\Clients
  */
 abstract class BaseAdapter implements ClientAdapterInterface
 {

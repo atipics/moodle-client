@@ -2,7 +2,7 @@
     "name": "atipics/moodle-client",
     "description": "Moodle client",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "atipics\\MoodleClient\\": "src/"
+            "Atipics\\MoodleClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "atipics\\MoodleClient\\Tests\\": "tests/"
+            "Atipics\\MoodleClient\\Tests\\": "tests/"
         }
     }
 }

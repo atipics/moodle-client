@@ -1,12 +1,12 @@
 <?php
 
-namespace atipics\MoodleClient\Entities;
+namespace Atipics\MoodleClient\Entities;
 
-use atipics\MoodleClient\GenericCollection;
+use Atipics\MoodleClient\GenericCollection;
 
 /**
  * Class CourseCollection
- * @package atipics\MoodleClient\Entities
+ * @package Atipics\MoodleClient\Entities
  */
 class CourseCollection extends GenericCollection
 {

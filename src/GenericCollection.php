@@ -7,7 +7,7 @@ use ArrayIterator;
 
 /**
  * Class GenericCollection
- * @package atipics\MoodleClient\Entities
+ * @package Atipics\MoodleClient\Entities
  */
 abstract class GenericCollection implements IteratorAggregate
 {

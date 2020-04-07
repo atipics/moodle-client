@@ -1,14 +1,14 @@
 <?php
 
-namespace atipics\MoodleClient\Services;
+namespace Atipics\MoodleClient\Services;
 
-use atipics\MoodleClient\Entities\Category as CategoryItem;
-use atipics\MoodleClient\Entities\Dto\Category as CategoryDto;
-use atipics\MoodleClient\Entities\CategoryCollection;
+use Atipics\MoodleClient\Entities\Category as CategoryItem;
+use Atipics\MoodleClient\Entities\Dto\Category as CategoryDto;
+use Atipics\MoodleClient\Entities\CategoryCollection;
 
 /**
  * Class Category
- * @package atipics\MoodleClient\Services
+ * @package Atipics\MoodleClient\Services
  */
 class Category extends Service
 {

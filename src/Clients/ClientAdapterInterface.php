@@ -1,10 +1,10 @@
 <?php
 
-namespace atipics\MoodleClient\Clients;
+namespace Atipics\MoodleClient\Clients;
 
 /**
  * Interface ClientAdapterInterface
- * @package atipics\MoodleClient\Clients
+ * @package Atipics\MoodleClient\Clients
  */
 interface ClientAdapterInterface
 {

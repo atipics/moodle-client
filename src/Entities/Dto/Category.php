@@ -1,12 +1,12 @@
 <?php
 
-namespace atipics\MoodleClient\Entities\Dto;
+namespace Atipics\MoodleClient\Entities\Dto;
 
-use atipics\MoodleClient\Entities\Entity;
+use Atipics\MoodleClient\Entities\Entity;
 
 /**
  * Class Category
- * @package atipics\MoodleClient\Entities\Dto
+ * @package Atipics\MoodleClient\Entities\Dto
  */
 class Category extends Entity
 {

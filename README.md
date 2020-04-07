@@ -6,9 +6,9 @@ The recommended way to install the library is through Composer:
 ```
 $ composer require atipics/moodle-client:dev-master
 ```
- 
+
 ## Usage
-Create instance of connection with your moodle service: 
+Create instance of connection with your moodle service:
 ```php
 $connection = new Connection('http://url-to-moodle-service.com', 'Y0uR!tOken');
 ```
@@ -20,7 +20,7 @@ $client = new RestClient($connection);
 
 Now, you can use moodle services. There are available some build in ready to use moodle entities.
 All logic and API working encapsulated in moodle services and entities. Let's create instance of Course service.
- 
+
 Create instance:
  ```
  $courseService = new Course($client);
@@ -36,7 +36,7 @@ Delete courses with ids: 1, 2, 3:
 $courses = $courseService->delete([1, 2, 3]);
 ```
 
-If you have to send some specific structured data, e.g., when you create new course, it is better to use special DTO's objects:  
+If you have to send some specific structured data, e.g., when you create new course, it is better to use special DTO's objects:
 ```php
 $courseDto = new Course();
 $courseDto->name = 'Test Course';
@@ -45,8 +45,8 @@ $courseDto->fullName = 'Test Course fullname';
 $courseService->create($courseDto);
 ```
 
-If there is no build in needed services and entities, you can create it.  
-Services must extend Service abstract class, entities (as DTO's) must extend Entity abstract class.  
+If there is no build in needed services and entities, you can create it.
+Services must extend Service abstract class, entities (as DTO's) must extend Entity abstract class.
 
 Also, you can use moodle client without service layer:
 ```php
@@ -54,7 +54,7 @@ $courses = $client->sendRequest('core_course_get_courses');
 ```
 
 ## Example of Laravel integration
-1. Create config file (config/moodle.php) for moodle service with content:  
+1. Create config file (config/moodle.php) for moodle service with content:
 ```php
 <?php
 
@@ -66,15 +66,15 @@ return [
 ];
 ```
 
-2. Create service provider:  
+2. Create service provider:
 ```
 $ php artisan make:provider MoodleServiceProvider
 ```
 Example of MoodleServiceProvider register method:
 ```php
-use atipics\MoodleClient\Clients\ClientAdapterInterface;
-use atipics\MoodleClient\Clients\Adapters\RestClient;
-use atipics\MoodleClient\Connection;
+use Atipics\MoodleClient\Clients\ClientAdapterInterface;
+use Atipics\MoodleClient\Clients\Adapters\RestClient;
+use Atipics\MoodleClient\Connection;
 
 public function register()
 {
@@ -85,7 +85,7 @@ public function register()
 }
 ```
 
-3. Register MoodleServiceProvider:  
+3. Register MoodleServiceProvider:
 Edit your config/app.php, add ```\App\Providers\MoodleServiceProvider::class```, to 'providers' array.
 
 4. Clear config cache:
@@ -100,7 +100,7 @@ $ php artisan config:clear
 
 namespace App\Http\Controllers;
 
-use atipics\MoodleClient\Services\Course;
+use Atipics\MoodleClient\Services\Course;
 
 /**
  * Class CourseController

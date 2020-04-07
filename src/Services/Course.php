@@ -1,14 +1,14 @@
 <?php
 
-namespace atipics\MoodleClient\Services;
+namespace Atipics\MoodleClient\Services;
 
-use atipics\MoodleClient\Entities\Course as CourseItem;
-use atipics\MoodleClient\Entities\Dto\Course as CourseDto;
-use atipics\MoodleClient\Entities\CourseCollection;
+use Atipics\MoodleClient\Entities\Course as CourseItem;
+use Atipics\MoodleClient\Entities\Dto\Course as CourseDto;
+use Atipics\MoodleClient\Entities\CourseCollection;
 
 /**
  * Class Course
- * @package atipics\MoodleClient\Services
+ * @package Atipics\MoodleClient\Services
  */
 class Course extends Service
 {
@@ -47,7 +47,7 @@ class Course extends Service
 
     /**
      * Create new course
-     * @param \atipics\MoodleClient\Entities\Dto\Course[] ...$courses
+     * @param \Atipics\MoodleClient\Entities\Dto\Course[] ...$courses
      * @return CourseCollection
      */
     public function create(CourseDto ...$courses)

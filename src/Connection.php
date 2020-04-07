@@ -1,12 +1,12 @@
 <?php
 
-namespace atipics\MoodleClient;
+namespace Atipics\MoodleClient;
 
 //use Assert\Assertion;
 
 /**
  * Class Connection
- * @package atipics\MoodleClient
+ * @package Atipics\MoodleClient
  */
 class Connection
 {

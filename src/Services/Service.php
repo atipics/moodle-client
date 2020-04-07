@@ -1,14 +1,14 @@
 <?php
 
-namespace atipics\MoodleClient\Services;
+namespace Atipics\MoodleClient\Services;
 
-use atipics\MoodleClient\Clients\ClientAdapterInterface;
-use atipics\MoodleClient\Entities\Entity;
+use Atipics\MoodleClient\Clients\ClientAdapterInterface;
+use Atipics\MoodleClient\Entities\Entity;
 use ReflectionClass;
 
 /**
  * Class Service
- * @package atipics\MoodleClient\Services
+ * @package Atipics\MoodleClient\Services
  */
 abstract class Service
 {

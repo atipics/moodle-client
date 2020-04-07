@@ -1,15 +1,15 @@
 <?php
 
-namespace atipics\MoodleClient\Clients\Adapters;
+namespace Atipics\MoodleClient\Clients\Adapters;
 
-use atipics\MoodleClient\Clients\BaseAdapter;
-use atipics\MoodleClient\Connection;
+use Atipics\MoodleClient\Clients\BaseAdapter;
+use Atipics\MoodleClient\Connection;
 // use Assert\Assertion;
 use GuzzleHttp\Client as HttpClient;
 
 /**
  * Class RestClient
- * @package atipics\MoodleClient\Clients
+ * @package Atipics\MoodleClient\Clients
  *
  * @method HttpClient getClient()
  */

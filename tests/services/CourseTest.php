@@ -1,18 +1,18 @@
 <?php
 
-namespace atipics\MoodleClient\Tests\Services;
+namespace Atipics\MoodleClient\Tests\Services;
 
-use atipics\MoodleClient\Clients\Adapters\RestClient;
-use atipics\MoodleClient\Clients\ClientAdapterInterface;
-use atipics\MoodleClient\Services\Course;
-use atipics\MoodleClient\Tests\MoodleTestCase;
-use atipics\MoodleClient\Entities\CourseCollection;
-use atipics\MoodleClient\Entities\Dto\Course as CourseDto;
-use atipics\MoodleClient\Entities\Course as CourseEntity;
+use Atipics\MoodleClient\Clients\Adapters\RestClient;
+use Atipics\MoodleClient\Clients\ClientAdapterInterface;
+use Atipics\MoodleClient\Services\Course;
+use Atipics\MoodleClient\Tests\MoodleTestCase;
+use Atipics\MoodleClient\Entities\CourseCollection;
+use Atipics\MoodleClient\Entities\Dto\Course as CourseDto;
+use Atipics\MoodleClient\Entities\Course as CourseEntity;
 
 /**
  * Class CourseTest
- * @package atipics\MoodleClient\Tests\Services
+ * @package Atipics\MoodleClient\Tests\Services
  */
 class CourseTest extends MoodleTestCase
 {

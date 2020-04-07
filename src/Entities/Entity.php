@@ -1,10 +1,10 @@
 <?php
 
-namespace atipics\MoodleClient\Entities;
+namespace Atipics\MoodleClient\Entities;
 
 /**
  * Class Entity
- * @package atipics\MoodleClient\Entities
+ * @package Atipics\MoodleClient\Entities
  */
 abstract class Entity
 {
