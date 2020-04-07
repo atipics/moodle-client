@@ -1,6 +1,6 @@
 <?php
 
-namespace atipics\MoodleClient;
+namespace Atipics\MoodleClient;
 
 use IteratorAggregate;
 use ArrayIterator;
