@@ -96,7 +96,7 @@ $ php artisan config:clear
 
 namespace App\Http\Controllers;
 
-use Ozq\MoodleClient\Services\Course;
+use atipics\MoodleClient\Services\Course;
 
 /**
  * Class CourseController

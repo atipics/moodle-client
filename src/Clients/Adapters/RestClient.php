@@ -1,15 +1,15 @@
 <?php
 
-namespace Ozq\MoodleClient\Clients\Adapters;
+namespace atipics\MoodleClient\Clients\Adapters;
 
-use Ozq\MoodleClient\Clients\BaseAdapter;
-use Ozq\MoodleClient\Connection;
+use atipics\MoodleClient\Clients\BaseAdapter;
+use atipics\MoodleClient\Connection;
 // use Assert\Assertion;
 use GuzzleHttp\Client as HttpClient;
 
 /**
  * Class RestClient
- * @package Ozq\MoodleClient\Clients
+ * @package atipics\MoodleClient\Clients
  *
  * @method HttpClient getClient()
  */

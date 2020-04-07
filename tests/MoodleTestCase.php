@@ -1,13 +1,13 @@
 <?php
 
-namespace Ozq\MoodleClient\Tests;
+namespace atipics\MoodleClient\Tests;
 
-use Ozq\MoodleClient\Connection;
+use atipics\MoodleClient\Connection;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class MoodleTestCase
- * @package Ozq\MoodleClient\Tests
+ * @package atipics\MoodleClient\Tests
  */
 class MoodleTestCase extends TestCase
 {

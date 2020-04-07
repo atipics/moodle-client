@@ -1,12 +1,12 @@
 <?php
 
-namespace Ozq\MoodleClient\Exceptions;
+namespace atipics\MoodleClient\Exceptions;
 
 use Exception;
 
 /**
  * Class ApiException
- * @package Ozq\MoodleClient\Exceptions
+ * @package atipics\MoodleClient\Exceptions
  */
 class ApiException extends Exception
 {

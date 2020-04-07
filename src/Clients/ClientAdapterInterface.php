@@ -1,10 +1,10 @@
 <?php
 
-namespace Ozq\MoodleClient\Clients;
+namespace atipics\MoodleClient\Clients;
 
 /**
  * Interface ClientAdapterInterface
- * @package Ozq\MoodleClient\Clients
+ * @package atipics\MoodleClient\Clients
  */
 interface ClientAdapterInterface
 {

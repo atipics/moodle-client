@@ -1,14 +1,14 @@
 <?php
 
-namespace Ozq\MoodleClient\Services;
+namespace atipics\MoodleClient\Services;
 
-use Ozq\MoodleClient\Clients\ClientAdapterInterface;
-use Ozq\MoodleClient\Entities\Entity;
+use atipics\MoodleClient\Clients\ClientAdapterInterface;
+use atipics\MoodleClient\Entities\Entity;
 use ReflectionClass;
 
 /**
  * Class Service
- * @package Ozq\MoodleClient\Services
+ * @package atipics\MoodleClient\Services
  */
 abstract class Service
 {

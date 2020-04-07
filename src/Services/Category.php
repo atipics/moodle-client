@@ -1,14 +1,14 @@
 <?php
 
-namespace Ozq\MoodleClient\Services;
+namespace atipics\MoodleClient\Services;
 
-use Ozq\MoodleClient\Entities\Category as CategoryItem;
-use Ozq\MoodleClient\Entities\Dto\Category as CategoryDto;
-use Ozq\MoodleClient\Entities\CategoryCollection;
+use atipics\MoodleClient\Entities\Category as CategoryItem;
+use atipics\MoodleClient\Entities\Dto\Category as CategoryDto;
+use atipics\MoodleClient\Entities\CategoryCollection;
 
 /**
  * Class Category
- * @package Ozq\MoodleClient\Services
+ * @package atipics\MoodleClient\Services
  */
 class Category extends Service
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Ozq\MoodleClient;
+namespace atipics\MoodleClient;
 
 use IteratorAggregate;
 use ArrayIterator;
 
 /**
  * Class GenericCollection
- * @package Ozq\MoodleClient\Entities
+ * @package atipics\MoodleClient\Entities
  */
 abstract class GenericCollection implements IteratorAggregate
 {

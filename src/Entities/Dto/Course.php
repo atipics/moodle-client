@@ -1,12 +1,12 @@
 <?php
 
-namespace Ozq\MoodleClient\Entities\Dto;
+namespace atipics\MoodleClient\Entities\Dto;
 
-use Ozq\MoodleClient\Entities\Entity;
+use atipics\MoodleClient\Entities\Entity;
 
 /**
  * Class Course
- * @package Ozq\MoodleClient\Entities\Dto
+ * @package atipics\MoodleClient\Entities\Dto
  */
 class Course extends Entity
 {

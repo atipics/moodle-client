@@ -1,12 +1,12 @@
 <?php
 
-namespace Ozq\MoodleClient\Entities\Dto;
+namespace atipics\MoodleClient\Entities\Dto;
 
-use Ozq\MoodleClient\Entities\Entity;
+use atipics\MoodleClient\Entities\Entity;
 
 /**
  * Class Category
- * @package Ozq\MoodleClient\Entities\Dto
+ * @package atipics\MoodleClient\Entities\Dto
  */
 class Category extends Entity
 {

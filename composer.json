@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ozq\\MoodleClient\\": "src/"
+            "atipics\\MoodleClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ozq\\MoodleClient\\Tests\\": "tests/"
+            "atipics\\MoodleClient\\Tests\\": "tests/"
         }
     }
 }

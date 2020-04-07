@@ -1,18 +1,18 @@
 <?php
 
-namespace Ozq\MoodleClient\Tests\Services;
+namespace atipics\MoodleClient\Tests\Services;
 
-use Ozq\MoodleClient\Clients\Adapters\RestClient;
-use Ozq\MoodleClient\Clients\ClientAdapterInterface;
-use Ozq\MoodleClient\Services\Course;
-use Ozq\MoodleClient\Tests\MoodleTestCase;
-use Ozq\MoodleClient\Entities\CourseCollection;
-use Ozq\MoodleClient\Entities\Dto\Course as CourseDto;
-use Ozq\MoodleClient\Entities\Course as CourseEntity;
+use atipics\MoodleClient\Clients\Adapters\RestClient;
+use atipics\MoodleClient\Clients\ClientAdapterInterface;
+use atipics\MoodleClient\Services\Course;
+use atipics\MoodleClient\Tests\MoodleTestCase;
+use atipics\MoodleClient\Entities\CourseCollection;
+use atipics\MoodleClient\Entities\Dto\Course as CourseDto;
+use atipics\MoodleClient\Entities\Course as CourseEntity;
 
 /**
  * Class CourseTest
- * @package Ozq\MoodleClient\Tests\Services
+ * @package atipics\MoodleClient\Tests\Services
  */
 class CourseTest extends MoodleTestCase
 {

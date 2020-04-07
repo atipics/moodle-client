@@ -1,10 +1,10 @@
 <?php
 
-namespace Ozq\MoodleClient\Entities;
+namespace atipics\MoodleClient\Entities;
 
 /**
  * Class SummaryFormatType
- * @package Ozq\MoodleClient\Entities
+ * @package atipics\MoodleClient\Entities
  */
 class SummaryFormatType
 {

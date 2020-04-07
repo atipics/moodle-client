@@ -1,12 +1,12 @@
 <?php
 
-namespace Ozq\MoodleClient\Entities;
+namespace atipics\MoodleClient\Entities;
 
-use Ozq\MoodleClient\GenericCollection;
+use atipics\MoodleClient\GenericCollection;
 
 /**
  * Class CategoryCollection
- * @package Ozq\MoodleClient\Entities
+ * @package atipics\MoodleClient\Entities
  */
 class CategoryCollection extends GenericCollection
 {

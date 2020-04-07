@@ -1,14 +1,14 @@
 <?php
 
-namespace Ozq\MoodleClient\Services;
+namespace atipics\MoodleClient\Services;
 
-use Ozq\MoodleClient\Entities\Course as CourseItem;
-use Ozq\MoodleClient\Entities\Dto\Course as CourseDto;
-use Ozq\MoodleClient\Entities\CourseCollection;
+use atipics\MoodleClient\Entities\Course as CourseItem;
+use atipics\MoodleClient\Entities\Dto\Course as CourseDto;
+use atipics\MoodleClient\Entities\CourseCollection;
 
 /**
  * Class Course
- * @package Ozq\MoodleClient\Services
+ * @package atipics\MoodleClient\Services
  */
 class Course extends Service
 {
@@ -47,7 +47,7 @@ class Course extends Service
 
     /**
      * Create new course
-     * @param \Ozq\MoodleClient\Entities\Dto\Course[] ...$courses
+     * @param \atipics\MoodleClient\Entities\Dto\Course[] ...$courses
      * @return CourseCollection
      */
     public function create(CourseDto ...$courses)

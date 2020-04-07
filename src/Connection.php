@@ -1,12 +1,12 @@
 <?php
 
-namespace Ozq\MoodleClient;
+namespace atipics\MoodleClient;
 
 //use Assert\Assertion;
 
 /**
  * Class Connection
- * @package Ozq\MoodleClient
+ * @package atipics\MoodleClient
  */
 class Connection
 {
