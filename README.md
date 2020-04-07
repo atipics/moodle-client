@@ -72,6 +72,10 @@ $ php artisan make:provider MoodleServiceProvider
 ```
 Example of MoodleServiceProvider register method:
 ```php
+use atipics\MoodleClient\Clients\ClientAdapterInterface;
+use atipics\MoodleClient\Clients\Adapters\RestClient;
+use atipics\MoodleClient\Connection;
+
 public function register()
 {
     $this->app->singleton(ClientAdapterInterface::class, function () {
