@@ -1,15 +1,8 @@
 {
-    "name": "ozq/moodle-client",
+    "name": "atipics/moodle-client",
     "description": "Moodle client",
     "license": "MIT",
     "version": "1.0.0",
-    "authors": [
-        {
-            "name": "Sergey Volkov",
-            "email": "svolkov25@gmail.com",
-            "homepage": "http://volkov.space"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
